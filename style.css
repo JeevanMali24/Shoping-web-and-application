@@ -29,6 +29,9 @@ p {
   color: black;
   margin: 15px 0 20px 0;
 }
+.section-p1 {
+  padding: 40px 80px;
+}
 
 /*..............................header..............................*/
 
@@ -38,7 +41,8 @@ p {
   align-items: center;
   height: 70px;
   padding: 0 50px;
-  background-color: rgba(72, 121, 212, 0.507);
+  background-color: rgb(235, 120, 38);
+  position: sticky;
 }
 
 #navbar {
@@ -78,7 +82,7 @@ p {
 
 /*...............................home page...............................*/
 #hero {
-  background-image: url(home.jpg);
+  background-image: url(https://img.freepik.com/free-photo/young-client-whttps://img.freepik.com/free-photo/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow_197531-11084.jpg?w=1380&t=st=1673265400~exp=1673266000~hmac=da76dccf10033e4b3717e0426f92c3a4e8ab74e92870a77b1385c898801295a7earing-yellow-clothes-orange-background_23-2148674266.jpg);
   height: 84vh;
   width: 100%;
   padding: 0 80px;
@@ -88,3 +92,47 @@ p {
   align-items: start;
   justify-content: center;
 }
+
+#hero h4 {
+  padding: 9px;
+  font-size: x-large;
+}
+#hero h2,
+h1 {
+  color: rgb(128, 36, 0);
+}
+
+#hero button {
+  border: none;
+  color: rgb(12, 22, 22);
+  padding: 10px 22px 14px 29px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrkO_hsSfkMPm9zu3iiEdS-b7AMiEYTz4Mg&usqp=CAU);
+}
+
+/*.........................feature.........................*/
+#feature {
+  display: flex;
+  padding: 15px 0px;
+}
+
+#feature .fe-box {
+  width: 260px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgb(105, 87, 72);
+  border: none;
+}
+
+#feature .fe-box:hover {
+  box-shadow: 20px 20px 34px rgb(249, 142, 88);
+}
+
+#feature .fe-box h6 {
+  background-color: orange;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+/*#feature .fe-box:nth-child(2) h6 {
+  background-color: white;
+}*/
