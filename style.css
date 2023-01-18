@@ -40,9 +40,13 @@ p {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  padding: 0 50px;
-  background-color: rgb(235, 120, 38);
+  padding: 20 80px;
+  background-color: rgb(253, 200, 94);
+  box-shadow: 0 5px 18px rgb(105, 87, 72);
+  z-index: 999;
   position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #navbar {
@@ -141,6 +145,11 @@ h1 {
 
 #product1 {
   text-align: center;
+}
+
+#product1 h2,
+p {
+  color: rgb(244, 128, 26);
 }
 
 #product1 .pro-contener {
