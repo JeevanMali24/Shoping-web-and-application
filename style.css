@@ -139,11 +139,18 @@ h1 {
 
 /*......................Product........................*/
 
-#product {
+#product1 {
   text-align: center;
 }
 
-#product .pro {
+#product1 .pro-contener {
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+  flex-wrap: wrap;
+}
+
+#product1 .pro {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
@@ -154,35 +161,36 @@ h1 {
   margin: 15px 0;
   transition: 0.25s;
 }
-#product .pro:hover {
+#product1 .pro:hover {
   box-shadow: 0 12px 12px 0 rgb(235, 120, 38);
 }
-#product .pro,
+#product1 .pro,
 dis {
   text-align: start;
   padding: 8px;
 }
-#product .pro span {
+#product1 .pro span {
   font-size: 12px;
 }
-#product .pro,
+#product1 .pro,
 h4 {
   font-size: 15px;
   padding: 0 15px;
+  position: relative;
 }
 
-#product .pro img {
+#product1 .pro img {
   width: 100%;
   border-radius: 20px;
 }
-#product .pro i {
+#product1 .pro i {
   color: rgb(245, 222, 19);
 }
-#product .pro,
+#product1 .pro,
 h3 {
   color: rgb(35, 96, 96);
 }
-#product .pro .cart {
+#product1 .pro .cart {
   color: rgb(78, 55, 230);
   border: 1px solid rgba(85, 79, 79, 0.133);
   border-radius: 50px;
@@ -191,4 +199,7 @@ h3 {
   background-color: rgb(244, 242, 238);
   padding: 9px;
   font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
 }
