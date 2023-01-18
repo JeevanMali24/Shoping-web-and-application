@@ -33,6 +33,23 @@ p {
   padding: 40px 80px;
 }
 
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  padding: 10px;
+  background-color: #fff;
+  color: rgb(118, 113, 113);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button.normal:hover {
+  color: rgb(19, 6, 114);
+}
+
 /*..............................header..............................*/
 
 #header {
@@ -211,4 +228,24 @@ h3 {
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
+
+/*........................banner.............................*/
+
+.banner {
+  text-align: center;
+  background-image: url(image/Banner/banner.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  height: 25vh;
+  width: 100%;
+}
+.banner h4 {
+  color: #fff;
+}
+.banner span {
+  color: rgba(220, 2, 2, 0.919);
 }
