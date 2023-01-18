@@ -138,3 +138,57 @@ h1 {
 }*/
 
 /*......................Product........................*/
+
+#product {
+  text-align: center;
+}
+
+#product .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid green;
+  border-radius: 20px;
+  box-shadow: 0 12px 12px 0 rgb(12, 22, 22);
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.25s;
+}
+#product .pro:hover {
+  box-shadow: 0 12px 12px 0 rgb(235, 120, 38);
+}
+#product .pro,
+dis {
+  text-align: start;
+  padding: 8px;
+}
+#product .pro span {
+  font-size: 12px;
+}
+#product .pro,
+h4 {
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+#product .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+#product .pro i {
+  color: rgb(245, 222, 19);
+}
+#product .pro,
+h3 {
+  color: rgb(35, 96, 96);
+}
+#product .pro .cart {
+  color: rgb(78, 55, 230);
+  border: 1px solid rgba(85, 79, 79, 0.133);
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(244, 242, 238);
+  padding: 9px;
+  font-size: 20px;
+}
