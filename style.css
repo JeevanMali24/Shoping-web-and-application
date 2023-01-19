@@ -101,6 +101,7 @@ button.normal {
 #hero {
   background-image: url(https://img.freepik.com/free-photo/young-client-whttps://img.freepik.com/free-photo/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow_197531-11084.jpg?w=1380&t=st=1673265400~exp=1673266000~hmac=da76dccf10033e4b3717e0426f92c3a4e8ab74e92870a77b1385c898801295a7earing-yellow-clothes-orange-background_23-2148674266.jpg);
   height: 84vh;
+  background-size: cover;
   width: 100%;
   padding: 0 80px;
   background-size: cover;
@@ -232,6 +233,7 @@ h3 {
 .banner {
   text-align: center;
   background-image: url(image/Banner/banner.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,6 +265,7 @@ h3 {
 }
 #banner2 .banner-box {
   background-image: url(image/Banner/bannerone.jpg);
+  background-size: cover;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -279,6 +282,7 @@ h2 {
 
 #banner2 .banner-box2 {
   background-image: url(image/Banner/bannertwo.jpg);
+  background-size: cover;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -298,15 +302,37 @@ h2 {
   flex-wrap: wrap;
 }
 
-#banner3 .banner-box {
-  background-image: url(image/Banner/bannerfour.jpg);
+#banner3 .banner-boxx1 {
+  padding: 10vh;
+  background-image: url(image/Banner/bannersix.jpg);
   background-repeat: no-repeat;
   margin: 15px;
   border: 1px solid;
   border-radius: 20px;
-  background-repeat: no-repeat;
+  background-size: cover;
   height: 35vh;
   width: 60vh;
+}
 
-  padding: 90px;
+#banner3 .banner-boxx2 {
+  background-image: url(image/Banner/bannerseven.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  border: 1px solid;
+  border-radius: 20px;
+  height: 35vh;
+  width: 60vh;
+  padding: 10vh;
+}
+#banner3 .banner-boxx3 {
+  background-image: url(image/Banner/bannereight.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 10vh;
+  height: 35vh;
+  width: 60vh;
 }
