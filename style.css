@@ -336,3 +336,51 @@ h2 {
   height: 35vh;
   width: 60vh;
 }
+
+/*.............................newsletters...................................*/
+
+#newsletters {
+  text-align: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url(image/Banner/newsletter.jpg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 180px;
+  width: 100%;
+}
+#newsletters p {
+  color: rgb(56, 68, 115);
+}
+#newsletters span {
+  color: tomato;
+}
+#newsletters h2 {
+  font-size: 35px;
+}
+
+#newsletters input {
+  height: 35px;
+  width: 300px;
+  padding: 0 25px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+#newsletters .form {
+  display: flex;
+  width: 40%;
+}
+#newsletters button {
+  white-space: nowrap;
+  background-color: rgb(7, 139, 47);
+  color: #fff;
+}
+
+#newsletters button:hover {
+  background-color: blue;
+  color: #fff;
+}
+/*..................................footer.................................*/
