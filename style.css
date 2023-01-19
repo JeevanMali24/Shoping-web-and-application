@@ -46,7 +46,7 @@ button.normal {
   transition: 0.2s;
 }
 
-/*..............................header..............................*/
+/*...............................................header.............................................*/
 
 #header {
   display: flex;
@@ -97,7 +97,7 @@ button.normal {
   left: 20px;
 }
 
-/*...............................home page...............................*/
+/*..............................................home page.............................................*/
 #hero {
   background-image: url(https://img.freepik.com/free-photo/young-client-whttps://img.freepik.com/free-photo/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow_197531-11084.jpg?w=1380&t=st=1673265400~exp=1673266000~hmac=da76dccf10033e4b3717e0426f92c3a4e8ab74e92870a77b1385c898801295a7earing-yellow-clothes-orange-background_23-2148674266.jpg);
   height: 84vh;
@@ -127,7 +127,7 @@ h1 {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrkO_hsSfkMPm9zu3iiEdS-b7AMiEYTz4Mg&usqp=CAU);
 }
 
-/*.........................feature.........................*/
+/*.........................................feature......................................*/
 #feature {
   display: flex;
   padding: 15px 0px;
@@ -155,7 +155,7 @@ h1 {
   background-color: white;
 }*/
 
-/*......................Product........................*/
+/*...........................................Product.......................................*/
 
 #product1 {
   text-align: center;
@@ -227,7 +227,7 @@ h3 {
   right: 10px;
 }
 
-/*........................banner.............................*/
+/*.........................................banner.......................................*/
 
 .banner {
   text-align: center;
@@ -254,7 +254,7 @@ h3 {
   color: #fff;
 }
 
-/*..........................banner2..............................*/
+/*.......................................banner2.............................*/
 #banner2 {
   margin: 0 85px;
   display: flex;
@@ -291,4 +291,22 @@ h2 {
 #banner2 button:hover {
   background-color: aqua;
   color: #fff;
+}
+/*.....................................banner3..................................*/
+#banner3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#banner3 .banner-box {
+  background-image: url(image/Banner/bannerfour.jpg);
+  background-repeat: no-repeat;
+  margin: 15px;
+  border: 1px solid;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  height: 35vh;
+  width: 60vh;
+
+  padding: 90px;
 }
