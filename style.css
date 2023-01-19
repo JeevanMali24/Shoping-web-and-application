@@ -46,10 +46,6 @@ button.normal {
   transition: 0.2s;
 }
 
-button.normal:hover {
-  color: rgb(19, 6, 114);
-}
-
 /*..............................header..............................*/
 
 #header {
@@ -127,6 +123,7 @@ h1 {
   border: none;
   color: rgb(12, 22, 22);
   padding: 10px 22px 14px 29px;
+  cursor: pointer;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrkO_hsSfkMPm9zu3iiEdS-b7AMiEYTz4Mg&usqp=CAU);
 }
 
@@ -243,9 +240,55 @@ h3 {
   height: 25vh;
   width: 100%;
 }
+.banner h2 {
+  font-size: 40px;
+}
 .banner h4 {
   color: #fff;
 }
 .banner span {
   color: rgba(220, 2, 2, 0.919);
+}
+.banner button:hover {
+  background-color: rgb(33, 11, 196);
+  color: #fff;
+}
+
+/*..........................banner2..............................*/
+#banner2 {
+  margin: 0 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#banner2 .banner-box {
+  background-image: url(image/Banner/bannerone.jpg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+  height: 35vh;
+  min-width: 580px;
+}
+#banner2 h4,
+h2 {
+  color: #fff;
+}
+
+#banner2 .banner-box2 {
+  background-image: url(image/Banner/bannertwo.jpg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-radius: 15px;
+  height: 35vh;
+  min-width: 580px;
+}
+#banner2 button:hover {
+  background-color: aqua;
+  color: #fff;
 }
